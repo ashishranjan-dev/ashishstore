@@ -45,7 +45,7 @@ app.use("/api/v1/auth", authRouters);
 app.use("/api/v1/user", userRouters);
 app.use("/api/v1/product", productRouters);
 app.use("/api/v1/review", ReviewRouters);
-app.use("/api/v1/orders", OrderRouters);
+app.use("/api/vq/orders", OrderRouters);
 
 //errpr handler middlewares
 app.use(notFound);
